@@ -1,3 +1,10 @@
+@import "reset";
+@import "settings/fonts";
+@import "settings/colors";
+
+
+
+
 body{
-  background: green;
+  font-family: $font-base;
 }
