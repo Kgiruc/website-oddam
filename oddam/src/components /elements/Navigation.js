@@ -19,6 +19,7 @@ export default function Navigation(){
                         <li>Kontakt</li>
                     </ul>
                 </div>
+
             </div>
         </>
     )

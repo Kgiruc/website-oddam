@@ -14,12 +14,19 @@
   justify-content: end;
   font-family: $font-base;
   color: $color-gray-blank;
+  margin-bottom: 35px;
   li:last-child{
     border: 1px solid $color-yellow;
+    margin-left: 30px;
   }
 }
 
 .container__nav__menu{
   display: flex;
   justify-content: end;
+  font-family: $font-base;
+  color: $color-gray;
+  li{
+    margin-left: 55px;
+  }
 }
