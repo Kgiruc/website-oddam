@@ -1,0 +1,25 @@
+.container__nav{
+  margin-top: 46px;
+  margin-right: 152px;
+
+  li{
+    display:inline-block;
+    list-style-type:none;
+    margin-right:-4px;
+    padding:10px;
+  }
+}
+.container__nav__login{
+  display: flex;
+  justify-content: end;
+  font-family: $font-base;
+  color: $color-gray-blank;
+  li:last-child{
+    border: 1px solid $color-yellow;
+  }
+}
+
+.container__nav__menu{
+  display: flex;
+  justify-content: end;
+}
