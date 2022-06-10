@@ -1,6 +1,13 @@
 .container__nav{
   margin-top: 46px;
   margin-right: 152px;
+  margin-left: 30px;
+
+
+  a:link {
+    text-decoration: none;
+  }
+
 
   li{
     display:inline-block;
@@ -13,20 +20,58 @@
   display: flex;
   justify-content: end;
   font-family: $font-base;
+  font-size: 13px;
   color: $color-gray-blank;
   margin-bottom: 35px;
-  li:last-child{
-    border: 1px solid $color-yellow;
-    margin-left: 30px;
+  a {
+    border: 1px solid transparent;
+  padding: 9px 10px;
   }
+  a:visited {
+    color: $color-gray-blank;
+  }
+
+  a:hover{
+    border: 1px solid $color-yellow;
+    padding: 9px 10px;
+
+  }
+
+
 }
 
 .container__nav__menu{
   display: flex;
   justify-content: end;
   font-family: $font-base;
+  font-size: 18px;
   color: $color-gray;
-  li{
-    margin-left: 55px;
+  margin-bottom: 219px;
+  a {
+  border: 1px solid transparent;
+  padding: 9px 20px;
+}
+  a:visited {
+    color: $color-gray;
   }
+
+  a:hover{
+    border: 1px solid $color-gray;
+    padding: 9px 20px;
+
+  }
+  li{
+    margin-left: 15px;
+  }
+}
+
+.container__nav__subtitles{
+  display: flex;
+  justify-content: end;
+  text-align: center;
+  font-family: $font-base;
+  font-size: 38px;
+  color:$color-gray;
+  margin-right: 275px;
+
 }

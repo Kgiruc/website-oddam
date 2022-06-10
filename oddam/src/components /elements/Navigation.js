@@ -6,20 +6,22 @@ export default function Navigation(){
             <div className="container__nav">
                 <div className="container__nav__login">
                     <ul className="container__nav__login__list">
-                        <li>Zaloguj</li>
-                        <li>Załóż konto</li>
+                        <li><a href="#">Zaloguj</a></li>
+                        <li><a href="#">Załóż konto</a></li>
                     </ul>
                 </div>
                 <div className="container__nav__menu">
                     <ul className="container__nav__menu__list">
-                        <li>Start</li>
-                        <li>O co chodzi?</li>
-                        <li>O nas</li>
-                        <li>Fundacja i organizacja</li>
-                        <li>Kontakt</li>
+                        <li><a href="#">Start</a></li>
+                        <li><a href="#">O co chodzi?</a></li>
+                        <li><a href="#">O nas</a></li>
+                        <li><a href="#">Fundacja i organizacja</a></li>
+                        <li><a href="#">Kontakt</a></li>
                     </ul>
                 </div>
-
+                <div className="container__nav__subtitles">
+                    <span>Zacznij pomagać! <br />Oddaj niechane rzeczy w zaufane ręce</span>
+                </div>
             </div>
         </>
     )
