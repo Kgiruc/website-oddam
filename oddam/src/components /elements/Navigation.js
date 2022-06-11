@@ -1,9 +1,13 @@
 import React from "react";
+import Decoration from "../../assets/Decoration.svg"
+import Hero from "../../assets/Home-Hero-Image.jpg"
 
 export default function Navigation(){
     return(
         <>
+
             <div className="container__nav">
+                <img  className="img__hero" src={Hero} alt="Box-trash"/>
                 <div className="container__nav__login">
                     <ul className="container__nav__login__list">
                         <li><a href="#">Zaloguj</a></li>
@@ -21,7 +25,13 @@ export default function Navigation(){
                 </div>
                 <div className="container__nav__subtitles">
                     <span>Zacznij pomagać! <br />Oddaj niechane rzeczy w zaufane ręce</span>
+                    <img  className="img__decoration" src={Decoration} alt="decoration"/>
+                        <div className="container__nav__subtitles__buttons">
+                            <a href="#">ODDAJ <br />RZECZY</a>
+                            <a className="container__nav__subtitles__button__2" href="#">ZORGANIZUJ <br />ZBIÓRKĘ</a>
+                        </div>
                 </div>
+
             </div>
         </>
     )

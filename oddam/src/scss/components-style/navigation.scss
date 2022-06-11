@@ -1,8 +1,17 @@
+
+
 .container__nav{
+
   margin-top: 46px;
   margin-right: 152px;
   margin-left: 30px;
-
+  position: relative;
+    .img__hero{
+       position: absolute;
+       width: 1368px;
+       height: 963px;
+        z-index: -5;
+    }
 
   a:link {
     text-decoration: none;
@@ -68,10 +77,37 @@
 .container__nav__subtitles{
   display: flex;
   justify-content: end;
+  align-items: end;
+  flex-direction: column;
   text-align: center;
   font-family: $font-base;
   font-size: 38px;
   color:$color-gray;
   margin-right: 275px;
+  letter-spacing: -0.76px;
+  line-height: 55px;
+  margin-bottom: 25px;
+    .img__decoration{
+      margin-top: 25px;
+      margin-bottom: 65px;
+      margin-right: 208px;
+    }
+      .container__nav__subtitles__buttons{
+        display: flex;
+        a{
+          font-size: 36px;
+          font-family: $font-base;
+          color:$color-gray;
+          padding: 13px 93px;
+          border: 1px solid $color-gray;
 
+        }
+        .container__nav__subtitles__button__2{
+          padding: 13px 51px;
+          margin-left: 44px;
+        }
+      }
 }
+
+
+
