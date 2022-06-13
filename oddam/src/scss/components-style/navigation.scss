@@ -1,17 +1,16 @@
 
 
 .container__nav{
-
+  background-image: url("../../assets/Home-Hero-Image.jpg");
+  background-repeat: no-repeat;
+  background-position: left;
+  height: 963px;
+  width: auto;
   margin-top: 46px;
   margin-right: 152px;
-  margin-left: 30px;
+
   position: relative;
-    .img__hero{
-       position: absolute;
-       width: 1368px;
-       height: 963px;
-        z-index: -5;
-    }
+
 
   a:link {
     text-decoration: none;

@@ -1,13 +1,11 @@
 import React from "react";
 import Decoration from "../../assets/Decoration.svg"
-import Hero from "../../assets/Home-Hero-Image.jpg"
 
 export default function Navigation(){
     return(
         <>
 
             <div className="container__nav">
-                <img  className="img__hero" src={Hero} alt="Box-trash"/>
                 <div className="container__nav__login">
                     <ul className="container__nav__login__list">
                         <li><a href="#">Zaloguj</a></li>
