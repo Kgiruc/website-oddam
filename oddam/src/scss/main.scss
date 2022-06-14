@@ -3,7 +3,9 @@
 @import "settings/colors";
 @import "components-style/navigation";
 @import "components-style/threecolumns";
+@import "components-style/3-steps";
 
 body{
   font-family: $font-base;
+  background-color: $color-white;
 }
