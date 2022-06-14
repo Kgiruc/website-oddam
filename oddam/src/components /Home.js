@@ -2,6 +2,7 @@ import React from "react";
 import Navigation from "./elements/Navigation";
 import ThreeColumns from "./elements/Three-columns";
 import SimpleSteps from "./elements/Simple-Steps";
+import About from "./elements/About";
 
 export default function Home(){
     return(
@@ -9,6 +10,7 @@ export default function Home(){
             <Navigation/>
             <ThreeColumns/>
             <SimpleSteps/>
+            <About/>
         </>
     )
 }

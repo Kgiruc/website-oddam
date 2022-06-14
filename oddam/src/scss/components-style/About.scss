@@ -1,0 +1,44 @@
+.container__about{
+  display: flex;
+  max-height: 935px;
+    .container__about__1{
+      background-color: $color-blank-white;
+      width: 100%;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .container__about__2{
+      background-image: url("../../assets/People.jpg");
+      background-position: right;
+      background-repeat: no-repeat;
+      width: 100%;
+      height: 935px;
+
+    }
+}
+
+.container__about__1{
+  span{
+    font-size: 38px;
+    font-family: $font-base;
+    color: $color-gray;
+    margin-top: 186px;
+    margin-bottom: 27.25px;
+  }
+    p{
+      font-size: 30px;
+      font-family: $font-base;
+      color: $color-gray;
+      margin-top: 61.9px;
+      margin-bottom: 40.09px;
+      max-width: 656.9px;
+      max-height: 208.91px;
+    }
+}
+
+.signature{
+  position: relative;
+  right: -215px;
+}
