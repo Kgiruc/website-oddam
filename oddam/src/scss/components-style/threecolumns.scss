@@ -30,12 +30,15 @@
      color:$color-gray;
      font-size: 18px;
      font-weight: normal;
+     font-family: $font-base;
   }
   :last-child{
     color:$color-gray;
+    font-family: $font-alt;
+    font-weight: 300;
     font-size: 16px;
-    font-weight: normal;
     margin-top: 28px;
+    letter-spacing: -0.32px;
 
   }
 }
@@ -46,4 +49,8 @@
 
  .container__three-columns__3{
    margin-right: 15%;
+ }
+
+ .subs{
+   line-height: 28px;
  }
