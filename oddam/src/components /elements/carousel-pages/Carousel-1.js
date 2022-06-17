@@ -14,18 +14,18 @@ export default function Carousel1(){
                     </ul>
 
                     <ul className="carousel__container__2">
-                        <span className="fundation__name">Fundacja “Dbam o Zdrowie”</span>
-                        <span className="items__name">ubrania, jedzenie, sprzęt AGD, meble, zabawki</span>
+                        <span className="fundation__name">Fundacja “Dla dzieci”</span>
+                        <span className="items__name">ubrania, meble, zabawki</span>
                         <span className="goal__name">
-                            Cel i misja: Pomoc osobom znajdującym się w trudnej sytuacji życiowej.
+                            Cel i misja: Pomoc dzieciom z ubogich rodzin.
                         </span>
                     </ul>
 
                     <ul className="carousel__container__3">
                         <span className="fundation__name">Fundacja “Dbam o Zdrowie”</span>
-                        <span className="items__name">ubrania, jedzenie, sprzęt AGD, meble, zabawki</span>
+                        <span className="items__name">ubrania, jedzenie, ciepłe koce</span>
                         <span className="goal__name">
-                            Cel i misja: Pomoc osobom znajdującym się w trudnej sytuacji życiowej.
+                            Cel i misja: Pomoc dla osób nie posiadających miejsca zamieszkania.
                         </span>
                     </ul>
 

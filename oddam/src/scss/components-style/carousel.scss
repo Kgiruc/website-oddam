@@ -4,12 +4,14 @@
   flex-direction: column;
 }
 
-.carousel__container__1 {
+.carousel__container__1,
+.carousel__container__2,
+.carousel__container__3 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   width: 1344px;
   height: 81px;
-  border-bottom: 2px solid $color-blank-gray;
+  border-bottom: 0.75px solid $color-blank-gray;
   :first-child{
     margin: 0;
     font-family: $font-alt;
@@ -36,27 +38,36 @@
   }
 }
 
+.carousel__container__2{
+  margin-top: 34px;
+}
+
+.carousel__container__3{
+  margin-top: 34px;
+  border-bottom: none;
+}
+
 .carousel__container__btn{
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .carousel__btn{
   margin: 10px;
+  padding: 13px 15px;
   border: 0.75px solid transparent;
   max-width: 208px;
   max-height: 79px;
   background-color: $color-white;
   color: $color-gray;
-  letter-spacing: 0;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: normal;
   text-align: center;
   text-decoration: none;
   display: inline-block;
 
   &:hover{
-    border: 0.75px solid $color-gray;
+    border: 0.75px solid $color-blank-gray;
   }
 }
 
