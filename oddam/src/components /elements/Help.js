@@ -4,7 +4,7 @@ import Decoration from "../../assets/Decoration.svg"
 
 export default function Help(){
 
-    const [style1, setStyle1] = useState("container__help__carusel__1__hidden");
+    const [style1, setStyle1] = useState("container__help__carusel__1");
     const changeStyle = () => {
         console.log("clicked");
         setStyle1("container__help__carusel__1");
