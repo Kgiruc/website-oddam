@@ -2,6 +2,7 @@
   margin-top: 66px;
   display: flex;
   flex-direction: column;
+  visibility: visible;
 }
 
 .carousel__container__1,
@@ -69,5 +70,11 @@
   &:hover{
     border: 0.75px solid $color-blank-gray;
   }
+}
+
+.carousel__container__hidden{
+  visibility: hidden;
+  height: 0;
+  width: 0;
 }
 
