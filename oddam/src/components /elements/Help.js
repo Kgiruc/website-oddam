@@ -1,42 +1,59 @@
-import React from "react";
-import {useState} from "react";
+import React, { useState }from "react";
 import Decoration from "../../assets/Decoration.svg"
 
 
 export default function Help(){
 
-    const [show, setShow] = useState(false);
-
-    const handleClick = () => {
-        setShow(true);
-        console.log("elo");
+    const [style1, setStyle1] = useState("container__help__carusel__1__hidden");
+    const changeStyle = () => {
+        console.log("clicked");
+        setStyle1("container__help__carusel__1");
+        setStyle2("container__help__carusel__2__hidden");
+        setStyle3("container__help__carusel__3__hidden");
     }
+
+    const [style2, setStyle2] = useState("container__help__carusel__2__hidden");
+    const changeStyle2 = () => {
+        console.log("clicked");
+        setStyle2("container__help__carusel__2");
+        setStyle1("container__help__carusel__1__hidden");
+        setStyle3("container__help__carusel__3__hidden");
+    }
+
+    const [style3, setStyle3] = useState("container__help__carusel__3__hidden");
+    const changeStyle3 = () => {
+        console.log("clicked");
+        setStyle3("container__help__carusel__3");
+        setStyle2("container__help__carusel__2__hidden");
+        setStyle1("container__help__carusel__1__hidden");
+    }
+
 
     return(
         <>
             <div className="container__help">
                 <span>Komu Pomagamy?</span>
                 <img src={Decoration} alt="decoration"/>
-                    <div className="container__help__buttons">
-                        <button onClick={handleClick} className="help__button button__1">Fundacjom</button>
-                        <button className="help__button button__2">Organizacjom pozarządowym</button>
-                        <button className="help__button button__3">Lokalnym zbiórkom</button>
+                    <div  className="container__help__buttons">
+                        <button  onClick={changeStyle} className="help__button button__1">Fundacjom</button>
+                        <button onClick={changeStyle2} className="help__button button__2">Organizacjom pozarządowym</button>
+                        <button onClick={changeStyle3} className="help__button button__3">Lokalnym zbiórkom</button>
                     </div>
             </div>
-            <div className="container__help__carusel__1">
-                    <span style={{
-                        visibility: setShow ? '' : 'hidden',
-                    }}>
+            <div className={style1}>
+                    <span>
                         W naszej bazie znajdziesz listę zweryfikowanych Fundacji, z którymi współpracujemy.
                         Możesz sprawdzić czym się zajmują, komu pomagają i czego potrzebują.
                     </span>
             </div>
-            <div className="container__help__carusel__2">
+            <div className={style2}>
                     <span>
-                        chuj i dupa jebac
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation.
                     </span>
             </div>
-            <div className="container__help__carusel__3">
+            <div className={style3}>
                     <span>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
