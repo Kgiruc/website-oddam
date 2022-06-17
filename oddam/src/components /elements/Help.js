@@ -1,5 +1,6 @@
 import React, { useState }from "react";
 import Decoration from "../../assets/Decoration.svg"
+import Carousel1 from "./carousel-pages/Carousel-1";
 
 
 export default function Help(){
@@ -45,6 +46,7 @@ export default function Help(){
                         W naszej bazie znajdziesz listę zweryfikowanych Fundacji, z którymi współpracujemy.
                         Możesz sprawdzić czym się zajmują, komu pomagają i czego potrzebują.
                     </span>
+                <Carousel1/>
             </div>
             <div className={style2}>
                     <span>
