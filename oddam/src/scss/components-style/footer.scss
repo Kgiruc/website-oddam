@@ -1,0 +1,32 @@
+.container__footer{
+  background-image: url("../../assets/Background-Contact-Form.jpg");
+  background-repeat: no-repeat;
+  height: 1026px;
+  width: auto;
+  margin-top: 80px;
+  position: relative;
+    .background__footer{
+      position: absolute;
+      background-color: $color-light-white;
+      height: 100%;
+      width: 100%;
+    }
+}
+
+.container__footer__form{
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: end;
+  text-align: center;
+  position: relative;
+  margin-right: 142px;
+}
+
+.footer__sub{
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  text-align: end;
+  color: green;
+}

@@ -4,6 +4,7 @@ import ThreeColumns from "./elements/Three-columns";
 import SimpleSteps from "./elements/Simple-Steps";
 import About from "./elements/About";
 import Help from "./elements/Help";
+import Footer from "./elements/footer";
 
 export default function Home(){
     return(
@@ -13,6 +14,7 @@ export default function Home(){
             <SimpleSteps/>
             <About/>
             <Help/>
+            <Footer/>
         </>
     )
 }

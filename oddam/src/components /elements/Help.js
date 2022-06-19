@@ -1,6 +1,6 @@
 import React, { useState }from "react";
 import Decoration from "../../assets/Decoration.svg"
-import Carousel1 from "./carousel-pages/Carousel-1";
+
 
 
 export default function Help(){
