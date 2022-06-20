@@ -14,14 +14,22 @@ export default function Footer(){
                         <span>Skontatuj się z nami</span>
                         <img  className="img__decoration__footer" src={Decoration} alt="decoration"/>
                         <form className="container__footer__subtitles__form">
-                            <label>
-                                Wpisz swoje imię
-                                <input type="text"  />
-                                Wpisz swój email
-                                <input type="text"  />
-                                Wpisz swoją wiadomość
-                                <input type="text"  />
-                            </label>
+                            <div className="container__footer__subtitles__form__row">
+                                <span>
+                                    <label >Wpisz swoje imię</label>
+                                    <input type="text"/>
+                                </span>
+                                <span>
+                                <label>Wpisz swój email</label>
+                                <input type="email" id="email" />
+                                </span>
+                            </div>
+                            <div className="container__footer__subtitles__form__message">
+                                <span>
+                                <label>Wpisz swoją wiadomość</label>
+                                    <input type="text" id="email"/>
+                                </span>
+                            </div>
                             <button>Wyślij</button>
                         </form>
                     </div>
