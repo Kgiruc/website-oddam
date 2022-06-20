@@ -107,7 +107,7 @@ export default function Help(){
 
     return(
         <>
-            <div className="container__help">
+            <div className="container__help" id="help">
                 <span>Komu Pomagamy?</span>
                 <img src={Decoration} alt="decoration"/>
                     <div  className="container__help__buttons">

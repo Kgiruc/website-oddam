@@ -9,7 +9,7 @@ import Facebook from "../../assets/Facebook.svg"
 export default function Footer(){
     return(
         <>
-            <div className="container__footer">
+            <div className="container__footer" id="footer">
                 <div className="background__footer">
                     <div className="container__footer__subtitles">
                         <span>Skontatuj się z nami</span>

@@ -4,13 +4,14 @@ import Icon1 from "../../assets/Icon-1.svg";
 import Icon2 from "../../assets/Icon-2.svg";
 import Icon3 from "../../assets/Icon-3.svg";
 import Icon4 from "../../assets/Icon-4.svg";
+import {NavLink} from "react-router-dom";
 
 
 
 export default function SimpleSteps() {
     return (
         <>
-            <div className="container__steps">
+            <div className="container__steps" id="simple__steps">
                 <span>Wystarczą 4 proste kroki</span>
                 <img src={Decoration} alt="decoraction"/>
                 <div className="container__steps__columns">
@@ -51,7 +52,7 @@ export default function SimpleSteps() {
                         </ul>
                     </div>
                 </div>
-                <a className="steps__button"  href="#">ODDAJ <br />RZECZY</a>
+                <NavLink className="steps__button"  to="/sign">ODDAJ <br />RZECZY</NavLink>
             </div>
         </>
     )

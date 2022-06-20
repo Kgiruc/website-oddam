@@ -5,7 +5,7 @@ export default function ThreeColumns(){
     return(
         <>
 
-            <div className="container__three-columns">
+            <div className="container__three-columns" id="three_columns">
                 <div className="container__three-columns__1 column">
                     <ul>
                         <li>10</li>
