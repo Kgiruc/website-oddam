@@ -5,6 +5,7 @@ import Facebook from "../../assets/Facebook.svg"
 
 
 
+
 export default function Footer(){
     return(
         <>
@@ -13,24 +14,30 @@ export default function Footer(){
                     <div className="container__footer__subtitles">
                         <span>Skontatuj się z nami</span>
                         <img  className="img__decoration__footer" src={Decoration} alt="decoration"/>
+
                         <form className="container__footer__subtitles__form">
                             <div className="container__footer__subtitles__form__row">
                                 <span>
                                     <label >Wpisz swoje imię</label>
-                                    <input type="text"/>
+                                    <input  placeholder="Krzysztof" type="text"/>
                                 </span>
                                 <span>
                                 <label>Wpisz swój email</label>
-                                <input type="email" id="email" />
+                                <input placeholder="abc@xyz.pl" type="email" id="email" />
                                 </span>
                             </div>
                             <div className="container__footer__subtitles__form__message">
                                 <span>
                                 <label>Wpisz swoją wiadomość</label>
-                                    <input type="text" id="email"/>
+                                    <textarea>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore etdolore magna aliqua.
+                                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                    </textarea>
+
                                 </span>
                             </div>
-                            <button>Wyślij</button>
+                                     <button>Wyślij</button>
                         </form>
                     </div>
                     </div>

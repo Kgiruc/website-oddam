@@ -7,7 +7,6 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  z-index: -10;
 
 
     .background__footer{
@@ -18,7 +17,6 @@
       display: flex;
       justify-content: end;
       text-align: center;
-      z-index: -5;
     }
 }
 
@@ -29,6 +27,7 @@
   justify-content: start;
   align-items: center;
   margin-right: 23%;
+  z-index: 5;
 
     span{
       margin-top: 200px;
@@ -44,6 +43,14 @@
 input{
   border:none;
   border-bottom: 1px solid $color-blank-gray;
+  font-size: 18px;
+  font-family: $font-base;
+
+}
+
+input[placeholder]{
+  font-family: $font-base;
+  font-size: 18px;
   color: $color-light-gray;
 }
 
@@ -74,16 +81,15 @@ input{
   span{
     display: flex;
     flex-direction: column;
-    width: 256px;
-    height: 62px;
     margin-top: 70px;
       label{
         font-size: 16px;
         text-align: start;
         font-weight: 600;
-        padding-bottom: 40px;
         color: $color-gray;
+        padding-bottom: 12px;
       }
+
   }
 }
 
@@ -91,14 +97,39 @@ input{
   display: flex;
   flex-direction: row;
   gap: 16px;
+  input{
+    width: 256px;
+  }
+}
+button{
+  margin-top: 30px;
+  width: 150px;
+  height: 50px;
+  display: inline-block;
+  background-color: $color-white;
+  border: 0.75px solid $color-gray;
+  font-family: $font-base;
+  font-weight: lighter;
+  font-size: 18px;
+  color: $color-black;
+  margin-left: 375px;
+
 }
 
-
 .container__footer__subtitles__form__message{
-  margin-top: 40px;
+  margin-top: -40px;
   span{
-    width: 528px;
-      label{
+      textarea{
+        max-width: 528px;
+        resize: none;
+        overflow-y: hidden;
+        letter-spacing: 0;
+        height: 97px;
+        border: none;
+        border-bottom: 1px solid $color-blank-gray;
+        font-family: $font-base;
+        font-size: 18px;
+        color: $color-blank-gray;
       }
   }
 }
