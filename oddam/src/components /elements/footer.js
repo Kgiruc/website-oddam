@@ -37,7 +37,7 @@ export default function Footer(){
 
                                 </span>
                             </div>
-                                     <button>Wyślij</button>
+                                     <button className="form__btn">Wyślij</button>
                         </form>
                     </div>
                     </div>
