@@ -48,10 +48,13 @@ input{
 
 }
 
-input[placeholder]{
+[placeholder]{
   font-family: $font-base;
   font-size: 18px;
   color: $color-light-gray;
+  &:focus{
+    color: $color-gray;
+  }
 }
 
 .footer__subs{
