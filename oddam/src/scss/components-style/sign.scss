@@ -1,0 +1,92 @@
+.container__sign{
+  width: auto;
+  margin-top: 46px;
+  margin-right: 152px;
+  position: relative;
+
+  a:link {
+    text-decoration: none;
+  }
+
+  li{
+    display:inline-block;
+    list-style-type:none;
+    margin-right:-4px;
+    padding:10px;
+  }
+}
+
+.container__sign__form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  span{
+    font-size: 40px;
+    font-family: $font-base;
+    font-weight: normal;
+    color: $color-gray;
+    margin-bottom: 25px;
+  }
+    img{
+      margin-bottom: 60px;
+    }
+}
+
+.sign__form{
+   display: flex;
+   width: 384.5px;
+   height: 235px;
+   background-color: $color-blank-white;
+    justify-content: center;
+  align-items: center;
+    span {
+      display: flex;
+      flex-direction: column;
+      margin-top: 40px;
+
+      label {
+          font-family: $font-base;
+          font-weight: 600;
+          color: $color-gray;
+          font-size: 16px;
+          margin-bottom: 15px;
+      }
+
+      input {
+        background-color: $color-blank-white;
+        width: 250px;
+        margin-bottom: 31px;
+      }
+    }
+ }
+
+.sign__btn{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 290px;
+  margin-top: 40px;
+    button{
+      width: 117px;
+      height: 50px;
+      display: inline-block;
+      background-color: $color-white;
+      border: 0.75px solid $color-gray;
+      font-family: $font-base;
+      font-weight: lighter;
+      font-size: 18px;
+      color: $color-black;
+    }
+      .register__btn{
+        text-align: center;
+        background-color: $color-white;
+        border: 0.75px solid transparent;
+        font-family: $font-base;
+        font-weight: lighter;
+        font-size: 18px;
+        color: $color-black;
+
+      }
+}
+

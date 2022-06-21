@@ -13,7 +13,7 @@ export default function Navigation(){
                     <ul className="container__nav__login__list">
                         <nav>
                         <li><NavLink to="/sign">Zaloguj</NavLink></li>
-                        <li><NavLink to="/sign">Załóż konto</NavLink></li>
+                        <li><NavLink to="/register">Załóż konto</NavLink></li>
                         </nav>
                     </ul>
                 </div>
