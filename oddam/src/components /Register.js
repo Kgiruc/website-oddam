@@ -26,7 +26,7 @@ export default function Register(){
             <div className="container__sign__form">
                 <span>Załóż konto </span>
                 <img  className="img__decoration" src={Decoration} alt="decoration"/>
-                <form className="sign__form">
+                <form className="sign__form register">
                                 <span>
                                     <label>Email</label>
                                     <input type="text"/>
