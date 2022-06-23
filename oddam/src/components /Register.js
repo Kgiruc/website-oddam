@@ -40,7 +40,7 @@ export default function Register(){
             </div>
             <div className="sign__btn">
                 <button className="register__btn" ><NavLink to="/">Zaloguj sie</NavLink></button>
-                <button><NavLink to="/">Załóż konto</NavLink></button>
+                <button><NavLink to="/register">Załóż konto</NavLink></button>
             </div>
         </div>
     </>
