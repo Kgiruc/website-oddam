@@ -1,56 +1,52 @@
-.container__three-columns{
+.container__three-columns {
   display: flex;
   text-align: center;
   justify-content: space-around;
   align-items: center;
   background-image: url("../../assets/3ColumnsBackground.png");
   height: 384px;
-  gap:286px;
-
-
-
-
+  gap: 286px;
 }
 
- .column {
-   margin-top: 46px;
-   margin-bottom: 86px;
-    text-align: center;
-   width:386px;
+.column {
+  margin-top: 46px;
+  margin-bottom: 86px;
+  text-align: center;
+  width: 386px;
 
-
-   :first-child{
-     color: $color-brown;
+  :first-child {
+    color: $color-brown;
     font-size: 90px;
     font-family: $font-base;
     font-weight: lighter;
-     margin-bottom: 25px;
+    margin-bottom: 25px;
   }
-   :nth-child(2){
-     color:$color-gray;
-     font-size: 18px;
-     font-weight: normal;
-     font-family: $font-base;
+
+  :nth-child(2) {
+    color: $color-gray;
+    font-size: 18px;
+    font-weight: normal;
+    font-family: $font-base;
   }
-  :last-child{
-    color:$color-gray;
+
+  :last-child {
+    color: $color-gray;
     font-family: $font-alt;
     font-weight: 300;
     font-size: 16px;
     margin-top: 28px;
     letter-spacing: -0.32px;
-
   }
 }
 
- .container__three-columns__1{
-   margin-left: 15%;
- }
+.container__three-columns__1 {
+  margin-left: 15%;
+}
 
- .container__three-columns__3{
-   margin-right: 15%;
- }
+.container__three-columns__3 {
+  margin-right: 15%;
+}
 
- .subs{
-   line-height: 28px;
- }
+.subs {
+  line-height: 28px;
+}

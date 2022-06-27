@@ -1,4 +1,4 @@
-.carousel__container{
+.carousel__container {
   margin-top: 66px;
   display: flex;
   max-width: 1344px;
@@ -14,22 +14,25 @@
   width: 1344px;
   height: 81px;
   border-bottom: 0.75px solid $color-blank-gray;
-  :first-child{
+
+  :first-child {
     margin: 0;
     font-family: $font-alt;
     font-size: 26px;
     font-weight: lighter;
     text-align: start;
   }
-  :nth-child(2){
+
+  :nth-child(2) {
     margin: 0;
     font-family: $font-alt;
     font-size: 18px;
     font-weight: lighter;
     text-align: end;
-    padding-right:0;
+    padding-right: 0;
   }
-  :last-child{
+
+  :last-child {
     margin: 0;
     font-family: $font-alt;
     font-size: 18px;
@@ -40,21 +43,21 @@
   }
 }
 
-.carousel__container__2{
+.carousel__container__2 {
   margin-top: 34px;
 }
 
-.carousel__container__3{
+.carousel__container__3 {
   margin-top: 34px;
   border-bottom: none;
 }
 
-.carousel__container__btn{
+.carousel__container__btn {
   display: flex;
   justify-content: center;
 }
 
-.carousel__btn{
+.carousel__btn {
   margin: 10px;
   padding: 13px 15px;
   border: 0.75px solid transparent;
@@ -68,15 +71,13 @@
   text-decoration: none;
   display: inline-block;
 
-  &:hover{
+  &:hover {
     border: 0.75px solid $color-blank-gray;
   }
 }
 
-.carousel__container__hidden{
+.carousel__container__hidden {
   visibility: hidden;
   height: 0;
   width: 0;
 }
-
-

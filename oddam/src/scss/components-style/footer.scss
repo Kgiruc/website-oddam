@@ -1,4 +1,4 @@
-.container__footer{
+.container__footer {
   background-image: url("../../assets/Background-Contact-Form.jpg");
   background-repeat: no-repeat;
   height: 1026px;
@@ -8,19 +8,18 @@
   display: flex;
   flex-direction: column;
 
-
-    .background__footer{
-      position: absolute;
-      background-color: $color-light-white;
-      height: 100%;
-      width: 100%;
-      display: flex;
-      justify-content: end;
-      text-align: center;
-    }
+  .background__footer {
+    position: absolute;
+    background-color: $color-light-white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    text-align: center;
+  }
 }
 
-.container__footer__subtitles{
+.container__footer__subtitles {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -29,35 +28,36 @@
   margin-right: 23%;
   z-index: 5;
 
-    span{
-      margin-top: 200px;
-      font-family: $font-base;
-      font-size: 38px;
-      letter-spacing: -0.76px;
-      color: $color-gray;
-      margin-bottom: 25px;
-    }
+  span {
+    margin-top: 200px;
+    font-family: $font-base;
+    font-size: 38px;
+    letter-spacing: -0.76px;
+    color: $color-gray;
+    margin-bottom: 25px;
+  }
 }
 
 
-input{
-  border:none;
+input {
+  border: none;
   border-bottom: 1px solid $color-blank-gray;
   font-size: 18px;
   font-family: $font-base;
 
 }
 
-[placeholder]{
+[placeholder] {
   font-family: $font-base;
   font-size: 18px;
   color: $color-light-gray;
-  &:focus{
+
+  &:focus {
     color: $color-gray;
   }
 }
 
-.footer__subs{
+.footer__subs {
   position: relative;
   display: flex;
   justify-content: center;
@@ -65,46 +65,51 @@ input{
   width: 100%;
   height: 100%;
   margin-bottom: 19px;
-    :first-child{
-      margin-bottom: 3px;
-      margin-left: 221px;
-      font-size: 18px;
-      font-family: $font-base;
-      color: $color-gray;
-   }
-    :last-child{
-      margin-right: 140px;
-      width: 30px;
-      height: 30px;
-      margin-left: 20px;
-    }
+
+  :first-child {
+    margin-bottom: 3px;
+    margin-left: 221px;
+    font-size: 18px;
+    font-family: $font-base;
+    color: $color-gray;
+  }
+
+  :last-child {
+    margin-right: 140px;
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+  }
 }
 
-.container__footer__subtitles__form{
-  span{
+.container__footer__subtitles__form {
+  span {
     display: flex;
     flex-direction: column;
     margin-top: 70px;
-      label{
-        font-size: 16px;
-        text-align: start;
-        font-weight: 600;
-        color: $color-gray;
-        padding-bottom: 12px;
-      }
+
+    label {
+      font-size: 16px;
+      text-align: start;
+      font-weight: 600;
+      color: $color-gray;
+      padding-bottom: 12px;
+    }
 
   }
 }
 
-.container__footer__subtitles__form__row{
+.container__footer__subtitles__form__row {
   display: flex;
   flex-direction: row;
   gap: 16px;
-  input{
+
+  input {
     width: 256px;
   }
 }
-.form__btn{
+
+.form__btn {
   margin-top: 30px;
   width: 150px;
   height: 50px;
@@ -119,22 +124,21 @@ input{
 
 }
 
-.container__footer__subtitles__form__message{
+.container__footer__subtitles__form__message {
   margin-top: -40px;
-  span{
-      textarea{
-        max-width: 528px;
-        resize: none;
-        overflow-y: hidden;
-        letter-spacing: 0;
-        height: 97px;
-        border: none;
-        border-bottom: 1px solid $color-blank-gray;
-        font-family: $font-base;
-        font-size: 18px;
-        color: $color-blank-gray;
-      }
+
+  span {
+    textarea {
+      max-width: 528px;
+      resize: none;
+      overflow-y: hidden;
+      letter-spacing: 0;
+      height: 97px;
+      border: none;
+      border-bottom: 1px solid $color-blank-gray;
+      font-family: $font-base;
+      font-size: 18px;
+      color: $color-blank-gray;
+    }
   }
 }
-
-
