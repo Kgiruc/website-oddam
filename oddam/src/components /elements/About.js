@@ -1,10 +1,9 @@
-import React from "react";
 import Decoration from "../../assets/Decoration.svg"
 import Signature from "../../assets/Signature.svg"
 
 export default function About() {
     return (
-        <div className="container__about" id="about">
+        <section className="container__about" id="about">
             <div className="container__about__1">
                 <span>O nas</span>
                 <img src={Decoration} alt="decoration"/>
@@ -14,6 +13,6 @@ export default function About() {
             </div>
             <div className="container__about__2">
             </div>
-        </div>
+        </section>
     )
 }

@@ -1,14 +1,13 @@
-import React from "react";
 import Navigation from "./elements/Navigation";
 import ThreeColumns from "./elements/Three-columns";
-import SimpleSteps from "./elements/Simple-Steps";
+import SimpleSteps from "./elements/Simple-steps";
 import About from "./elements/About";
 import Help from "./elements/Help";
-import Footer from "./elements/footer";
+import Footer from "./elements/Footer";
 
 
-export default function Home(){
-    return(
+export default function Home() {
+    return (
         <>
             <Navigation/>
             <ThreeColumns/>
