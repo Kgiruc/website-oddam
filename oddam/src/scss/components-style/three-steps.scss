@@ -76,6 +76,7 @@
 .steps__button {
   font-size: 36px;
   font-family: $font-base;
+  font-weight: lighter;
   color: $color-gray;
   padding: 13px 93px;
   border: 1px solid $color-gray;
@@ -83,4 +84,5 @@
   margin-top: 35px;
   margin-bottom: 80px;
   text-align: center;
+  letter-spacing: 0;
 }

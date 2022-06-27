@@ -95,14 +95,15 @@
 
   .container__nav__subtitles__buttons {
     display: flex;
+    font-family: $font-base;
+    font-weight: lighter;
+    line-height: 1.2;
 
     a {
       font-size: 36px;
-      font-family: $font-base;
       color: $color-gray;
       padding: 13px 93px;
       border: 1px solid $color-gray;
-
     }
 
     .container__nav__subtitles__button__2 {
