@@ -23,7 +23,7 @@ export default function Navigation() {
                 </ul>
             </div>
             <div className="container__nav__subtitles">
-                <span>Zacznij pomagać! <br/>Oddaj niechane rzeczy w zaufane ręce</span>
+                <h1>Zacznij pomagać! <br/>Oddaj niechane rzeczy w zaufane ręce</h1>
                 <img className="img__decoration" src={Decoration} alt="decoration"/>
                 <div className="container__nav__subtitles__buttons">
                     <NavLink to="/sign">ODDAJ <br/>RZECZY</NavLink>

@@ -122,46 +122,46 @@ export default function Help(){
                         Możesz sprawdzić czym się zajmują, komu pomagają i czego potrzebują.
                     </span>
                 <div className={slide1}>
-                    <ul className="carousel__container__1">
+                    <div className="carousel__container__1">
                         <span className="fundation__name">Fundacja “Dbam o Zdrowie”</span>
                         <span className="items__name">ubrania, jedzenie, sprzęt AGD, meble, zabawki</span>
                         <span className="goal__name">
                             Cel i misja: Pomoc osobom znajdującym się w trudnej sytuacji życiowej.
                         </span>
-                    </ul>
+                    </div>
 
-                    <ul className="carousel__container__2">
+                    <div className="carousel__container__2">
                         <span className="fundation__name">Fundacja “Dla dzieci”</span>
                         <span className="items__name">ubrania, meble, zabawki</span>
                         <span className="goal__name">
                             Cel i misja: Pomoc dzieciom z ubogich rodzin.
                         </span>
-                    </ul>
+                    </div>
 
-                    <ul className="carousel__container__3">
+                    <div className="carousel__container__3">
                         <span className="fundation__name">Fundacja “Dbam o Zdrowie”</span>
                         <span className="items__name">ubrania, jedzenie, ciepłe koce</span>
                         <span className="goal__name">
                             Cel i misja: Pomoc dla osób nie posiadających miejsca zamieszkania.
                         </span>
-                    </ul>
+                    </div>
                 </div>
                 <div className={slide2}>
-                    <ul className="carousel__container__1">
+                    <div className="carousel__container__1">
                         <span className="fundation__name">Lorem ipsum dolor sit amet.</span>
                         <span className="items__name">Lorem ipsum dolor sit amet.</span>
                         <span className="goal__name">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                         </span>
-                    </ul>
+                    </div>
 
-                    <ul className="carousel__container__2">
+                    <div className="carousel__container__2">
                         <span className="fundation__name">Lorem ipsum dolor sit amet.</span>
                         <span className="items__name">Lorem ipsum dolor sit amet.</span>
                         <span className="goal__name">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                         </span>
-                    </ul>
+                    </div>
 
                     <ul className="carousel__container__3">
                         <span className="fundation__name">Lorem ipsum dolor sit amet.</span>
@@ -172,29 +172,29 @@ export default function Help(){
                     </ul>
                 </div>
                 <div className={slide3}>
-                    <ul className="carousel__container__1">
+                    <div className="carousel__container__1">
                         <span className="fundation__name">Lorem ipsum dolor s.</span>
                         <span className="items__name">Lorem ipsum dolor si.</span>
                         <span className="goal__name">
                             Lorem ipsum dolor sit amet, consectetur adipisicint.
                         </span>
-                    </ul>
+                    </div>
 
-                    <ul className="carousel__container__2">
+                    <div className="carousel__container__2">
                         <span className="fundation__name">Lorem ipsum dolor .</span>
                         <span className="items__name">Lorem ipsum dolor t.</span>
                         <span className="goal__name">
                             Lorem ipsum dolor sit amet, consectetur .
                         </span>
-                    </ul>
+                    </div>
 
-                    <ul className="carousel__container__3">
+                    <div className="carousel__container__3">
                         <span className="fundation__name">Lorem ipsum dolor sit amet.</span>
                         <span className="items__name">Lorem ipsum dolor sit amet.</span>
                         <span className="goal__name">
                             Lorem ipsum dolor sit amet, consectetur .
                         </span>
-                    </ul>
+                    </div>
                 </div>
                 <div className="carousel__container__btn">
                     <button  onClick={changeSlide} className="carousel__btn">1</button>
@@ -211,54 +211,54 @@ export default function Help(){
                         Ut enim ad minim veniam, quis nostrud exercitation.
                     </span>
                 <div className={slide4}>
-                    <ul className="carousel__container__1">
+                    <div className="carousel__container__1">
                         <span className="fundation__name">Organizacja “Lorem ipsum 1”</span>
                         <span className="items__name">Egestas,sed,tempus</span>
                         <span className="goal__name">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                         </span>
-                    </ul>
+                    </div>
 
-                    <ul className="carousel__container__2">
+                    <div className="carousel__container__2">
                         <span className="fundation__name">Organizacja “Lorem ipsum 2”</span>
                         <span className="items__name">ubrania, meble, zabawki</span>
                         <span className="goal__name">
                             Cel i misja: Pomoc dzieciom z ubogich rodzin.
                         </span>
-                    </ul>
+                    </div>
 
-                    <ul className="carousel__container__3">
+                    <div className="carousel__container__3">
                         <span className="fundation__name">Organizacja “Lorem ipsum 3”</span>
                         <span className="items__name">ubrania, jedzenie, ciepłe koce</span>
                         <span className="goal__name">
                             Cel i misja: Pomoc dla osób nie posiadających miejsca zamieszkania.
                         </span>
-                    </ul>
+                    </div>
                 </div>
                 <div className={slide5}>
-                    <ul className="carousel__container__1">
+                    <div className="carousel__container__1">
                         <span className="fundation__name">Organizacja “Lorem ipsum 4”</span>
                         <span className="items__name">Lorem ipsum dolor sit amet.</span>
                         <span className="goal__name">
                             Lorem ipsum dolor sit amet, consectetur
                         </span>
-                    </ul>
+                    </div>
 
-                    <ul className="carousel__container__2">
+                    <div className="carousel__container__2">
                         <span className="fundation__name">Organizacja “Lorem ipsum 5”</span>
                         <span className="items__name">Lorem ipsum dolor sit amet.</span>
                         <span className="goal__name">
                             Lorem ipsum dolor sit amet, consectetur adi
                         </span>
-                    </ul>
+                    </div>
 
-                    <ul className="carousel__container__3">
+                    <div className="carousel__container__3">
                         <span className="fundation__name">Organizacja “Lorem ipsum 6”</span>
                         <span className="items__name">Lorem ipsum dolor sit amet.</span>
                         <span className="goal__name">
                             Lorem ipsum dolor sit amet, consectetur adipisici
                         </span>
-                    </ul>
+                    </div>
                 </div>
 
                 <div className="carousel__container__btn">
@@ -273,29 +273,29 @@ export default function Help(){
                         Ut enim ad minim veniam, quis nostrud exercitation.
                     </span>
                 <div className={slide6}>
-                    <ul className="carousel__container__1">
+                    <div className="carousel__container__1">
                         <span className="fundation__name">Zbiórka “Lorem ipsum 1”</span>
                         <span className="items__name">Egestas,sed,tempus</span>
                         <span className="goal__name">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                         </span>
-                    </ul>
+                    </div>
 
-                    <ul className="carousel__container__2">
+                    <div className="carousel__container__2">
                         <span className="fundation__name">Zbiórka “Lorem ipsum 2”</span>
                         <span className="items__name">Egestas,sed,tempus</span>
                         <span className="goal__name">
                             Lorem ipsum dolor sit amet.
                         </span>
-                    </ul>
+                    </div>
 
-                    <ul className="carousel__container__3">
+                    <div className="carousel__container__3">
                         <span className="fundation__name">Zbiórka “Lorem ipsum 3”</span>
                         <span className="items__name">Egestas,sed,tempus</span>
                         <span className="goal__name">
                             Lorem ipsum dolor sit amet, consectetur adipisicing.
                         </span>
-                    </ul>
+                    </div>
                 </div>
             </div>
         </>
