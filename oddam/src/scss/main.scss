@@ -1,6 +1,7 @@
 @import "reset";
 @import "settings/fonts";
 @import "settings/colors";
+@import "common/header";
 @import "components-style/navigation";
 @import "components-style/threecolumns";
 @import "components-style/three-steps";
@@ -11,7 +12,6 @@
 @import "components-style/sign";
 
 body{
-
   font-family: $font-base;
   background-color: $color-white;
   max-width: 2400px;
