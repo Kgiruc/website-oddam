@@ -91,3 +91,31 @@
     font-size: 22px;
   }
 }
+
+@media screen and (max-width: 1400px){
+  .container__help__buttons {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .button__1 {
+    padding: 23px 42px;
+    margin-right: 0;
+  }
+
+  .button__2 {
+    padding: 11px 19px;
+  }
+
+  .button__3 {
+    padding: 11px 50px;
+    margin-left: 0;
+  }
+
+  .container__help__carusel__1,
+  .container__help__carusel__2,
+  .container__help__carusel__3 {
+    display: none;
+  }
+
+}
