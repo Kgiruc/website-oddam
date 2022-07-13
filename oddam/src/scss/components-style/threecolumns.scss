@@ -50,3 +50,27 @@
 .subs {
   line-height: 28px;
 }
+
+@media screen and (max-width: 1600px){
+  .container__three-columns {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    gap: 0;
+  }
+
+  .column {
+    margin-top: 2px;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 386px;
+  }
+
+  .container__three-columns__1 {
+    margin-left: 0;
+  }
+
+  .container__three-columns__3 {
+    margin-right: 0;
+  }
+}

@@ -121,44 +121,32 @@
 @media screen and (max-width: 1600px) {
 
   .container__nav {
-    background-image: none;
-    height: 600px;
-    margin: 0;
+    background-image: url("../../assets/Home-Hero-Image.jpg");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position-x: -800px;
+    margin: 40px 0 0 0;
 
-    li {
-      display: flex;
-
+  }
+    .container__nav__menu .nav__bar {
+      display: none;
     }
-  }
 
-  .container__nav__login {
-
-    list-style-type: none;
-    justify-content: end;
-    font-family: $font-base;
-    font-size: 13px;
-    color: $color-gray-blank;
-  }
-
-  .container__nav__menu .nav__bar {
-    display: none;
+  .container__nav__menu{
+    display: block;
 
   }
 
 
   .container__nav__menu .mobile__nav{
     display: flex;
-    //flex-direction: row;
-    justify-content: end;
-    font-family: $font-base;
-    font-size: 18px;
-    color: $color-gray;
-    margin-bottom: 219px;
-    margin-top: 35px;
-    max-width: 200px;
-    position: absolute;
+    justify-content: center;
+    flex-direction: row;
+    width: 90%;
     right: 30px;
-    padding-right: 32px;
+    color: $color-gray;
+    position: relative;
+    margin: 40px -30px 10% 10%;
 
     a {
       border: 1px solid transparent;
@@ -176,9 +164,13 @@
     }
 
     li {
+      display: block;
+      margin-bottom: 5px;
       margin-left: 15px;
     }
-
+    ul{
+      display: block;
+    }
     ul:first-child{
       padding-top: 30px;
     }
@@ -198,8 +190,9 @@
 
 
   .container__nav__subtitles {
+    margin-top: 160px;
     display: flex;
-    justify-content: start;
+    justify-content: end;
     align-items: center;
     flex-direction: column;
     text-align: center;
@@ -209,7 +202,9 @@
     letter-spacing: -0.76px;
     line-height: 55px;
     margin-bottom: 25px;
-    margin-top: 5px;
+    margin-left: 110px;
+    position: relative;
+
 
     .img__decoration {
       margin-top: 25px;
