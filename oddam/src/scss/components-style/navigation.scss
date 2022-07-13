@@ -123,6 +123,7 @@
   .container__nav {
     background-image: none;
     height: 600px;
+    margin: 0;
 
     li {
       display: flex;
@@ -151,10 +152,10 @@
     font-size: 18px;
     color: $color-gray;
     margin-bottom: 219px;
-    margin-top: 35px;
+    margin-top: 45px;
     max-width: 200px;
     position: absolute;
-    right: 0;
+    right: 30px;
 
     a {
       border: 1px solid transparent;
