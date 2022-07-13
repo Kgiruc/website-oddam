@@ -1,6 +1,8 @@
 import {NavLink} from "react-router-dom";
-import {Link} from "react-scroll";
 import Decoration from "../../assets/Decoration.svg"
+import MobileNav from "./MobileNav";
+import NavBar from "./NavBar";
+import NavLinks from "./NavLinks";
 
 export default function Navigation() {
     return (
@@ -14,13 +16,8 @@ export default function Navigation() {
                 </ul>
             </div>
             <div className="container__nav__menu">
-                <ul className="container__nav__menu__list">
-                    <li><NavLink to="/">Start</NavLink></li>
-                    <li><Link to="three_columns" smooth={true} duration={300}>O co chodzi?</Link></li>
-                    <li><Link to="about" smooth={true} duration={300}>O nas</Link></li>
-                    <li><Link to="help" smooth={true} duration={300}>Fundacja i organizacja</Link></li>
-                    <li><Link to="footer" smooth={true}   duration={300}>Kontakt</Link></li>
-                </ul>
+                    <NavBar />
+                    <MobileNav />
             </div>
             <div className="container__nav__subtitles">
                 <h1>Zacznij pomagać! <br/>Oddaj niechane rzeczy w zaufane ręce</h1>
