@@ -101,6 +101,54 @@
     position: relative;
     right: -215px;
   }
+}
 
+@media screen and (max-width: 600px){
+  .container__about {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    .header__text {
+      margin-top: 60px;
+      font-size: 28px;
+    }
+
+    .container__about__1 {
+
+      span {
+        font-size: 28px;
+        font-family: $font-base;
+        color: $color-gray;
+        margin-top: 50px;
+        margin-bottom: 27.25px;
+      }
+
+      p {
+        font-size: 20px;
+        font-family: $font-base;
+        color: $color-gray;
+        margin-top: 41.9px;
+        margin-bottom: 20.09px;
+        width: 325px;
+        max-height: 208.91px;
+      }
+    }
+
+
+  .container__about__2 {
+    display: none;
+    }
+  }
+  .signature {
+    width: 160px;
+    height: 100px;
+    position: relative;
+    right: 0;
+  }
+  img{
+    width: 60%;
+  }
 }
 

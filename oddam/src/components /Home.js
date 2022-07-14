@@ -12,7 +12,7 @@ export default function Home() {
             <Navigation/>
             <ThreeColumns/>
             <SimpleSteps/>
-            {/*<About/>*/}
+            <About/>
             {/*<Help/>*/}
             {/*<Footer/>*/}
         </>
