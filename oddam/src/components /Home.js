@@ -10,11 +10,11 @@ export default function Home() {
     return (
         <>
             <Navigation/>
-            <ThreeColumns/>
-            <SimpleSteps/>
-            <About/>
-            <Help/>
-            <Footer/>
+            {/*<ThreeColumns/>*/}
+            {/*<SimpleSteps/>*/}
+            {/*<About/>*/}
+            {/*<Help/>*/}
+            {/*<Footer/>*/}
         </>
     )
 }
