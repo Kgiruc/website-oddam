@@ -11,7 +11,7 @@ export default function Home() {
         <>
             <Navigation/>
             <ThreeColumns/>
-            {/*<SimpleSteps/>*/}
+            <SimpleSteps/>
             {/*<About/>*/}
             {/*<Help/>*/}
             {/*<Footer/>*/}

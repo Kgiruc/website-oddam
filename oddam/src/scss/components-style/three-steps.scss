@@ -161,3 +161,21 @@
     letter-spacing: 0;
   }
 }
+
+@media screen and (max-width: 920px){
+  .container__steps {
+
+
+    span {
+      font-size: 28px;
+    }
+
+    img {
+      width: 40%;
+    }
+  }
+  .steps__button {
+    font-size: 20px;
+    padding: 13px 65px;
+  }
+}
