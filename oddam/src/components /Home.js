@@ -13,7 +13,7 @@ export default function Home() {
             <ThreeColumns/>
             <SimpleSteps/>
             <About/>
-            {/*<Help/>*/}
+            <Help/>
             {/*<Footer/>*/}
         </>
     )
