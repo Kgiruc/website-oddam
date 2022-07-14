@@ -74,3 +74,27 @@
     margin-right: 0;
   }
 }
+@media screen and (max-width: 600px){
+  .container__three-columns {
+    width: auto;
+  }
+
+    .column {
+      margin-right: auto;
+      margin-left: auto;
+      width: 90%;
+      :first-child {
+        font-size: 70px;
+        font-weight: lighter;
+      }
+
+      :nth-child(2) {
+        font-size: 18px;
+
+      }
+
+      :last-child {
+        font-size: 14px;
+      }
+    }
+}

@@ -10,7 +10,7 @@ export default function Home() {
     return (
         <>
             <Navigation/>
-            {/*<ThreeColumns/>*/}
+            <ThreeColumns/>
             {/*<SimpleSteps/>*/}
             {/*<About/>*/}
             {/*<Help/>*/}
