@@ -1,5 +1,7 @@
 import {NavLink} from "react-router-dom";
 import Decoration from "../assets/Decoration.svg";
+import NavBar from "./elements/NavBar";
+import MobileNav from "./elements/MobileNav";
 
 export default function Register() {
     return (
@@ -13,13 +15,8 @@ export default function Register() {
                 </ul>
             </header>
             <div className="container__nav__menu">
-                <ul className="container__nav__menu__list">
-                    <li><NavLink to="/">Start</NavLink></li>
-                    <li><NavLink to="/">O co chodzi?</NavLink></li>
-                    <li><NavLink to="/">O nas</NavLink></li>
-                    <li><NavLink to="/">Fundacja i organizacja</NavLink></li>
-                    <li><NavLink to="/">Kontakt</NavLink></li>
-                </ul>
+                <NavBar />
+                <MobileNav />
             </div>
             <div className="container__sign__form">
                 <span>Załóż konto </span>

@@ -99,3 +99,14 @@
   width: 384px;
   height: 328px;
 }
+
+@media screen and (max-width: 800px) {
+  .container__sign{
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .sign__btn{
+    gap: 100px;
+  }
+}
