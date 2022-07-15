@@ -157,16 +157,17 @@ input {
     width: auto;
     height: 500px;
      img{
-       width: 80%;
+       width: 60%;
      }
   }
   .container__footer__subtitles {
-    margin-top: -20px;
-    margin-left: 100px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
     span {
       margin-top: 200px;
       font-family: $font-base;
-      font-size: 32px;
+      font-size: 26px;
       letter-spacing: -0.76px;
       color: $color-gray;
       margin-bottom: 25px;
