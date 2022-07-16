@@ -23,7 +23,7 @@
 
 .container__nav__login {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   font-family: $font-base;
   font-size: 13px;
   color: $color-gray-blank;
@@ -47,7 +47,7 @@
 
 .container__nav__menu .nav__bar {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   font-family: $font-base;
   font-size: 18px;
   color: $color-gray;
@@ -80,8 +80,8 @@
 
 .container__nav__subtitles {
   display: flex;
-  justify-content: end;
-  align-items: end;
+  justify-content: flex-end;
+  align-items: flex-end;
   flex-direction: column;
   text-align: center;
   font-family: $font-base;
@@ -192,7 +192,7 @@
   .container__nav__subtitles {
     margin-top: 160px;
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     align-items: center;
     flex-direction: column;
     text-align: center;
@@ -216,7 +216,7 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      gap: 20px;
+      gap: 25px;
       font-family: $font-base;
       font-weight: lighter;
       line-height: 1.2;
@@ -241,6 +241,11 @@
     height: 563px;
     width: auto;
     float: none;
+  }
+
+  .img__menu {
+    width: 32px;
+    height: 32px;
   }
 
   .container__nav__subtitles {

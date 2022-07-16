@@ -23,10 +23,9 @@ export default function Footer() {
                         <div className="container__footer__subtitles__form__message">
                                 <span>
                                 <label>Wpisz swoją wiadomość</label>
-                                    <textarea>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    <textarea defaultValue="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                         incididunt ut labore etdolore magna aliqua.
-                                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.">
                                     </textarea>
                                 </span>
                         </div>
