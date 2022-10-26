@@ -2,7 +2,6 @@ import {NavLink} from "react-router-dom";
 import Decoration from "../../assets/Decoration.svg"
 import MobileNav from "./MobileNav";
 import NavBar from "./NavBar";
-import NavLinks from "./NavLinks";
 
 export default function Navigation() {
     return (

@@ -4,13 +4,15 @@
   background-position: left;
   background-position-x: -500px;
   height: 963px;
-  width: auto;
+  width: 100%;
   margin-top: 46px;
   margin-right: 152px;
   position: relative;
+  z-index: 10;
 
   a:link {
     text-decoration: none;
+    color: $color-gray;
   }
 
   li {
@@ -40,7 +42,6 @@
   a:hover {
     border: 1px solid $color-yellow;
     padding: 9px 10px;
-
   }
 
 }
@@ -74,7 +75,7 @@
   }
 }
 
-.container__nav__menu .mobile__nav{
+.container__nav__menu .mobile__nav {
   display: none;
 }
 
@@ -91,6 +92,7 @@
   letter-spacing: -0.76px;
   line-height: 55px;
   margin-bottom: 25px;
+  z-index: -999;
 
   .img__decoration {
     margin-top: 25px;
@@ -128,25 +130,28 @@
     margin: 40px 0 0 0;
 
   }
-    .container__nav__menu .nav__bar {
-      display: none;
-    }
-
-  .container__nav__menu{
-    display: block;
-
+  .container__nav__menu .nav__bar {
+    display: none;
   }
 
-
-  .container__nav__menu .mobile__nav{
+  .container__nav__menu {
     display: flex;
     justify-content: center;
+  }
+
+  .container__nav__menu .mobile__nav {
+    display: inline;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
     flex-direction: row;
     width: 90%;
     right: 30px;
-    color: $color-gray;
-    position: relative;
-    margin: 40px -30px 10% 10%;
+    color: $color-white;
+    margin: 0;
+    position: absolute;
+    z-index: 999;
+
 
     a {
       border: 1px solid transparent;
@@ -168,23 +173,28 @@
       margin-bottom: 5px;
       margin-left: 15px;
     }
-    ul{
+
+    ul {
       display: block;
     }
-    ul:first-child{
-      padding-top: 30px;
+
+    ul:first-child {
+      padding-top: 5px;
     }
 
-    background-color: $color-light-gray;
+    ul:last-child {
+      padding-bottom: 10px;
+    }
+    border-radius: 20px;
+    background-color: $color-gray;
   }
 
-  .img__menu{
+  .img__menu {
+    position: absolute;
     padding-top: 0;
     width: 42px;
     height: 42px;
-    position: absolute;
     right: 0;
-    cursor: pointer;
     filter: opacity(0.4) drop-shadow(0 0 0 $color-gray);
   }
 
@@ -203,7 +213,7 @@
     line-height: 55px;
     margin-bottom: 25px;
     margin-left: 110px;
-    position: relative;
+    z-index: -999;
 
 
     .img__decoration {
@@ -274,8 +284,8 @@
       padding: 13px 65px !important;
     }
   }
-    .container__nav__login {
-      justify-content: center;
-    }
+  .container__nav__login {
+    justify-content: center;
+  }
 
 }
